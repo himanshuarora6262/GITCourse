@@ -11,7 +11,7 @@ public class Dates {
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 		Date  date = new Date();
 		String formatttedDate = format.format(date);
-		System.out.println(date);
+		System.out.println("DATE- "+date);
 				
 	}
 
